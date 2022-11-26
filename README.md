@@ -29,10 +29,19 @@ In both projects we make use of the same dataset in different formats, sentence 
 Our Notebooks will pull this raw data from the Github repository and separate it into 80% for training, 10% for developing, and 10% for testing. After the data is separated the Notebooks will train their respective models and output their scores on the test data once training completes.
 
 
-## Overview
-
-
 ## Installation and Usage Instructions
+This repo was tested on Python 2.7 and 3.5+ 
+
+This project was built and tested in Google Colab. It can be ran the same way. 
+
+To run this project yourself:
+1. Follow this link to the Github-to-Colab .ipynb file - [Github to Colab - NER_using_LSTM_with_Keras](https://githubtocolab.com/NathanH-VCU/NER/blob/main/NER_using_LSTM_with_Keras.ipynb) and [Github to Colab - NER_using_BERT_with_PyTorch] https://githubtocolab.com/NathanH-VCU/NER/blob/main/NER_using_BERT_with_PyTorch.ipynb
+2. Click Runtime
+3. Click Run All
+4. Authorize the notebook
+5. Wait until the process finishes, our tests took about 40 minuets with our sample data.
+
+## Overview
 
 
 ## Method
