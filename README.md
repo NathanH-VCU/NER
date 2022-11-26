@@ -45,6 +45,14 @@ To run this project yourself:
 
 
 ## Method
+1. For BERT with PyTorch : 
+-	Feature representation : Bert contextual embedding
+-	Python Algorithm : Standard PyTorch training
+-	Dataset : Kaggle NER dataset, sentence separated
+2. For Keras with BiLSTM:
+- Feature representation : TensorFlow Keras Embedding
+- Algorithm : Stochastic Gradient Descent
+- Dataset : Kaggle NER dataset, word separated
 
 
 ## Data
