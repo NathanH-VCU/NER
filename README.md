@@ -16,12 +16,13 @@
 ## Project Description
 For this project we have set up 2 different methods set up to determine Named Entity Recognition of News headlines pertaining to War and comparing them with tweets of current war news. Our first method utilized the BERT model with PyTorch to provide an accuracy score of 91% for our test data. We also utilized a Keras model with BiLSTM to provide accuracy, precision, recall, f1, and support scores.
 
-We use Tweepy to grab any tweets related to the hashtags of current wars. This includes: 1.Israel
--Palestine
--Russia
--Syria
--Ukraine
--UkraineRussiaWar
+We use Tweepy to grab any tweets related to the hashtags of current wars. This includes:
+- Israel
+- Palestine
+- Russia
+- Syria
+- Ukraine
+- UkraineRussiaWar
 
 In both projects we make use of the same dataset in different formats, sentence separated and word separated, that is originally provided from Kaggle for NER research.
 
