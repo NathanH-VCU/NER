@@ -56,6 +56,27 @@ To run this project yourself:
 
 
 ## Data
+For our data we are utilizing a dataset provided through Kaggle called “NER Data” which contains a list of news article headlines and a list of each words’ labels. In total the data contains 47,960 headlines and their labels as well as 17 different labels including the O:
+![plot histogram of tags](https://github.com/NathanH-VCU/NER/raw/main/src/assets/newplot.png)
+
+- B-geo	37644		23.43 %
+- B-gpe	15870		9.878 %
+- B-per		16990		10.575 %
+- I-geo		7414		4.615 %
+- B-org		20143		12.537 %
+- I-org		16784		10.446 %
+- B-tim		20333		12.655 %
+- B-art		402		0.25 %
+- I-art		297		0.185 %
+- I-per		17251		10.737 %
+- I-gpe		198		0.123 %
+- I-tim		6528		4.063 %
+- B-nat		201		0.125 %
+- B-eve		308		0.192 %
+- I-eve		253		0.157 %
+- I-nat		51		0.032 %
+
+For our twitter data we are using tweepy to pull from the twitter api all tweets with the tags “Israel”, “Palestine”, “Russia”, “Syria”, “Ukraine”, “UkraineRussiaWar”. This includes about 200 tweets for each tag.
 
 
 ## Doc
