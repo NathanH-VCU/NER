@@ -59,22 +59,22 @@ To run this project yourself:
 For our data we are utilizing a dataset provided through Kaggle called “NER Data” which contains a list of news article headlines and a list of each words’ labels. In total the data contains 47,960 headlines and their labels as well as 17 different labels including the O:
 ![plot histogram of tags](https://github.com/NathanH-VCU/NER/raw/main/src/assets/newplot.png)
 
-- B-geo&emsp;&emsp;37644&emsp;&emsp;23.43%
-- B-gpe&emsp;&emsp;15870&emsp;&emsp;9.878%
-- B-per&emsp;&emsp;16990&emsp;&emsp;10.575%
-- I-geo&emsp;&emsp;7414&emsp;&emsp;4.615%
-- B-org&emsp;&emsp;20143&emsp;&emsp;12.537%
-- I-org&emsp;&emsp;16784&emsp;&emsp;10.446%
-- B-tim&emsp;&emsp;20333&emsp;&emsp;12.655%
-- B-art&emsp;&emsp;402&emsp;&emsp;0.25%
-- I-art&emsp;&emsp;297&emsp;&emsp;0.185%
-- I-per&emsp;&emsp;17251&emsp;&emsp;10.737%
-- I-gpe&emsp;&emsp;198&emsp;&emsp;0.123%
-- I-tim&emsp;&emsp;6528&emsp;&emsp;4.063%
-- B-nat&emsp;&emsp;201&emsp;&emsp;0.125%
-- B-eve&emsp;&emsp;308&emsp;&emsp;0.192%
-- I-eve&emsp;&emsp;253&emsp;&emsp;0.157%
-- I-nat&emsp;&emsp;51&emsp;&emsp;0.032%
+- B-geo 	 37644 	 23.43 %
+- B-gpe 	 15870 	 9.878 %
+- B-per 	 16990 	 10.575 %
+- I-geo 	 7414 	 4.615 %
+- B-org 	 20143 	 12.537 %
+- I-org 	 16784 	 10.446 %
+- B-tim 	 20333 	 12.655 %
+- B-art 	 402 	   0.25 %
+- I-art 	 297 	   0.185 %
+- I-per 	 17251 	 10.737 %
+- I-gpe 	 198 	   0.123 %
+- I-tim 	 6528 	 4.063 %
+- B-nat 	 201 	   0.125 %
+- B-eve 	 308 	   0.192 %
+- I-eve 	 253 	   0.157 %
+- I-nat 	 51 	   0.032 %
 
 For our twitter data we are using tweepy to pull from the twitter api all tweets with the tags “Israel”, “Palestine”, “Russia”, “Syria”, “Ukraine”, “UkraineRussiaWar”. This includes about 200 tweets for each tag.
 
