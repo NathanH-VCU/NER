@@ -107,6 +107,8 @@ The NER tag follows a special format used widely in NER literature called IOB fo
 
 ## Notebooks
 
+<strong>- NER_Nourchene_final_code.ipynb </strong> is the code for NER recognition with MIT public dataset  
+
 
 ## Results
 
