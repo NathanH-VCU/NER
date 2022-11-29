@@ -43,6 +43,9 @@ To run this project yourself:
 
 ## Overview
 
+This is our approch for this project and how we divided the code tasks into sub-tasks.
+![image](https://user-images.githubusercontent.com/83011466/204411284-da597fb9-fd33-4070-8f97-3522c8fbf0a0.png)
+
 
 ## Method
 1. For BERT with PyTorch : 
