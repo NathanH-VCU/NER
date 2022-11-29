@@ -110,7 +110,7 @@ The NER tag follows a special format used widely in NER literature called IOB fo
 
 ## Results
 
-#1. <strong>MIT dataset :</strong>
+<strong>1. MIT dataset :</strong>
 
 <strong>Training Loss</strong>
 
