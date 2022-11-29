@@ -134,6 +134,12 @@ Our model got the F-1 score of 94.4 %
 
 ## Discussion
 
+As we worked on different Machine Learning algorithms: CNN, LSTM, BiLSTM and also using different optimizerslike Adam and SGD.
+With Bert Pytorch LSTM and Adam optimizer we got <strong>94% accuracy</strong> which is a good result compared to 88% accuracy with Adam optimizer for CNN.
+![image](https://user-images.githubusercontent.com/83011466/204414572-9d56a9a8-f84a-40c8-9fdd-adc729c135e9.png)
+
+
+
 
 ## Future Work
 
