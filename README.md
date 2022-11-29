@@ -107,6 +107,11 @@ The NER tag follows a special format used widely in NER literature called IOB fo
 
 ## Results
 
+<strong>Training Loss</strong>
+
+![image](https://user-images.githubusercontent.com/83011466/204408854-f1078e61-de2c-4f42-bd15-d189f15c36cd.png)
+
+
 
 ## Discussion
 
