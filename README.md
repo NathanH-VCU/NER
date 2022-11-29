@@ -158,4 +158,4 @@ There were severl issues that came up with the CNN model that we tried a new apr
 
 ## Future Work
 
-Given more time with this project we would like to get tthe kinks worked out with the CNN model as well as to test our working models with the tweets we pulled regarding current events in war. Being able to identify dates, companies, individuals, dollar amounts, and other useful data with a NER model is a useful strategy to sum up the large amounts of news and events for the length of a war.
+Given more time with this project we would like to get the things worked out with the CNN model as well as to test our working models with the tweets we pulled regarding current events in war. Being able to identify dates, companies, individuals, dollar amounts, and other useful data with a NER model is a useful strategy to sum up the large amounts of news and events for the length of a war.
