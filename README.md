@@ -83,6 +83,9 @@ https://groups.csail.mit.edu/sls/downloads/movie/
 This data is a semantically tagged training and testing corpus in BIO format. The eng corpus (engtrain and engtest are available in the SRC folder)
 ![image](https://user-images.githubusercontent.com/83011466/204407413-0953b61d-11fe-4e41-af4d-f6f4b11330cd.png)
 
+<strong>Data Training and Validation Split </strong>
+The MIT public movie corpus was divided into a training set of 90% and 10% for validation set.
+
 <strong>NER Tags and IOB Format </strong>
   
   <p>
@@ -93,10 +96,6 @@ The NER tag follows a special format used widely in NER literature called IOB fo
     <li>B:this tag means the word is either a single word entity name or else the first word in a multi-word entity name</li>
     <li>I: this tag means the word is part of a ulti-word entity but is not the first word in the full entity name  </li>
 </p>
-
-
-<strong>Data Training and Validation Split </strong>
-The MIT public movie corpus was divided into a training set of 90% and 10% for validation set.
 
 
 ## Doc
