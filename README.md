@@ -110,10 +110,19 @@ The NER tag follows a special format used widely in NER literature called IOB fo
 
 ## Results
 
+1. with MIT dataset :
 <strong>Training Loss</strong>
 
 ![image](https://user-images.githubusercontent.com/83011466/204408854-f1078e61-de2c-4f42-bd15-d189f15c36cd.png)
 
+The loss value decreases each epoch and at the end of the epoch 5, the loss value becomes really small. The training performed well with no overfiting.
+is a phenomenal result
+
+<strong>Classfication Report</strong>
+
+![image](https://user-images.githubusercontent.com/83011466/204411658-73294ea2-dc91-4fe6-8f86-6ea14d9bd73c.png)
+
+Our model got the F-1 score of 94.4 %
 
 
 ## Discussion
