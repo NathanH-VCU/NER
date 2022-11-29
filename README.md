@@ -89,15 +89,12 @@ The MIT public movie corpus was divided into a training set of 90% and 10% for v
 
 <strong>NER Tags and IOB Format </strong>
   
-  <p>
-  Both the train and test datasets are single files containing movie-related text where each word has a NER tag specifying it as one of the following entities.
+Both the train and test datasets are single files containing movie-related text where each word has a NER tag specifying it as one of the following entities.
 The NER tag follows a special format used widely in NER literature called IOB format(Inside,Outside and Beginning Format).
   <ul>
     <li>O:This Tag means the word is not part of the entity  </li>
     <li>B:this tag means the word is either a single word entity name or else the first word in a multi-word entity name</li>
     <li>I: this tag means the word is part of a ulti-word entity but is not the first word in the full entity name  </li>
-</p>
-
 
 ## Doc
 
