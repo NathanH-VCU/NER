@@ -84,6 +84,7 @@ This data is a semantically tagged training and testing corpus in BIO format. Th
 ![image](https://user-images.githubusercontent.com/83011466/204407413-0953b61d-11fe-4e41-af4d-f6f4b11330cd.png)
 
 <strong>Data Training and Validation Split </strong>
+
 The MIT public movie corpus was divided into a training set of 90% and 10% for validation set.
 
 <strong>NER Tags and IOB Format </strong>
