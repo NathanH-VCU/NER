@@ -83,7 +83,9 @@ For our twitter data we are using tweepy to pull from the twitter api all tweets
 
 Another Data that we used is the <strong>MIT public Movie Corpus</strong> for Movies Reviews. 
 https://groups.csail.mit.edu/sls/downloads/movie/ 
-This data is a semantically tagged training and testing corpus in BIO format. The eng corpus (engtrain and engtest are available in the SRC folder)
+
+This data is a semantically tagged training and testing corpus in BIO format. The eng corpus (engtrain and engtest are available in the SRC folder).
+
 ![image](https://user-images.githubusercontent.com/83011466/204407413-0953b61d-11fe-4e41-af4d-f6f4b11330cd.png)
 
 <strong>Data Training and Validation Split </strong>
