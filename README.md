@@ -107,7 +107,11 @@ The NER tag follows a special format used widely in NER literature called IOB fo
 
 ## Notebooks
 
-<strong>- NER_Nourchene_final_code.ipynb </strong> is the code for NER recognition with MIT public dataset  
+<strong>- NER_Nourchene_final_code.ipynb </strong> is the code for NER recognition with MIT public dataset using Bert with Pytorch and Adam optimizer.
+
+<strong>- NER_using_BERT_with_PyTorch.ipynb </strong> is the code for NER recognition with KAGGLE dataset using Bert with Pytorch, CNN and SGD optimizer.
+
+<strong>- NER_using_LSTM_with_Keras.ipynb </strong> is the code for NER recognition with KAGGLE dataset using LSTM with Keras.
 
 
 ## Results
