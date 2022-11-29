@@ -83,7 +83,7 @@ https://groups.csail.mit.edu/sls/downloads/movie/
 This data is a semantically tagged training and testing corpus in BIO format. The eng corpus (engtrain and engtest are available in the SRC folder)
 ![image](https://user-images.githubusercontent.com/83011466/204407413-0953b61d-11fe-4e41-af4d-f6f4b11330cd.png)
 
-<h2>NER Tags and IOB Format  </h2>
+<strong>NER Tags and IOB Format </strong>
   
   <p>
   Both the train and test datasets are single files containing movie-related text where each word has a NER tag specifying it as one of the following entities.
