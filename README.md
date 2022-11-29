@@ -151,7 +151,7 @@ The BiLSTM model got the F-1 score of 99%
 
 As we worked on different Machine Learning algorithms: CNN, LSTM, BiLSTM and also using different optimizers like Adam and SGD.
 With Bert Pytorch LSTM and Adam optimizer we got <strong>94% accuracy</strong> which is a good result compared to our first project with<strong> 88% </strong>accuracy with Adam optimizer for CNN.
-![image](https://user-images.githubusercontent.com/83011466/204414572-9d56a9a8-f84a-40c8-9fdd-adc729c135e9.png)
+
 We had also looked to see if there would be a major difference in accuracy score with bert-based-cased and bert-based-uncased, our reasoning initially was that Bert would be able to more easily identify Named Entities as they are more likely to have an upercase format but our results for this showed an accuracy score of 92% compared to -uncased at 94%.
 
 There were severl issues that came up with the CNN model that we tried a new aproach using Tensorflow Keras and BiLSTM. this method was more straightforward and provided the needed scores on our origional dataset. with an overall strong accuracy of <strong>99%</strong>.
