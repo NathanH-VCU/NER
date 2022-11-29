@@ -63,7 +63,7 @@ For our data we are utilizing a dataset provided through Kaggle called “NER Da
 ![plot histogram of tags](https://github.com/NathanH-VCU/NER/raw/main/src/assets/newplot.png)
 
 | Label | # in Data | % of Data |
-| --- | --- |
+| --- | --- | --- |
 | B-geo | 37644 | 23.43% |
 | B-gpe | 15870 | 9.878% |
 | B-per | 16990 | 10.575% |
