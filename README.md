@@ -8,7 +8,6 @@
 | [Installation](#installation_instructions) | How to install the package |
 | [Overview](#overview) | Overview of the package |
 | [Method](#method) | Method used for codes |
-| [Doc](#doc) |  Detailed documentation |
 | [Notebooks](#notebooks) | Introduction on the provided Jupyter Notebooks |
 | [Data](#data) | Data used to train the models |
 | [Results](#results) | Results of the models |
@@ -59,7 +58,7 @@ This is our approch for this project and how we divided the code tasks into sub-
 
 
 ## Data
-For our data we are utilizing a dataset provided through Kaggle called “NER Data” which contains a list of news article headlines and a list of each words’ labels. In total the data contains 47,960 headlines and their labels as well as 17 different labels including the O:
+For our data we are utilizing a dataset provided through Kaggle called “NER Data” which contains a list of news article headlines and a list of each words’ labels, and split it with 80% for training, 10% for dev and 10% for testing. In total the data contains 47,960 headlines and their labels as well as 17 different labels including the O:
 ![plot histogram of tags](https://github.com/NathanH-VCU/NER/raw/main/src/assets/newplot.png)
 
 | Label | # in Data | % of Data |
@@ -104,9 +103,6 @@ The NER tag follows a special format used widely in NER literature called IOB fo
 <strong>B: </strong> this tag means the word is either a single word entity name or else the first word in a multi-word entity name
     
 <strong>I:</strong> this tag means the word is part of a ulti-word entity but is not the first word in the full entity name 
-    
-
-## Doc
 
 
 ## Notebooks
@@ -135,14 +131,30 @@ is a phenomenal result
 
 Our model got the F-1 score of 94.4 %
 
+<strong>2. Kaggle Dataset :</strong>
+
+<strong>Training Loss</strong>
+
+![image](https://raw.githubusercontent.com/NathanH-VCU/NER/main/src/assets/bilstm%20keras%20loss%20graph.png)
+
+The loss value decreases each epoch and at the end of the epoch 3, the loss value becomes 0.0478 and an accuracy of 0.9886.
+
+<strong>Classfication Report</strong>
+
+![image](https://raw.githubusercontent.com/NathanH-VCU/NER/main/src/assets/bilstm%20keras%20classification%20report.png)
+
+The BiLSTM model got the F-1 score of 99%
+
 
 ## Discussion
 
-As we worked on different Machine Learning algorithms: CNN, LSTM, BiLSTM and also using different optimizerslike Adam and SGD.
-With Bert Pytorch LSTM and Adam optimizer we got <strong>94% accuracy</strong> which is a good result compared to<strong> 88% </strong>accuracy with Adam optimizer for CNN.
+As we worked on different Machine Learning algorithms: CNN, LSTM, BiLSTM and also using different optimizers like Adam and SGD.
+With Bert Pytorch LSTM and Adam optimizer we got <strong>94% accuracy</strong> which is a good result compared to our first project with<strong> 88% </strong>accuracy with Adam optimizer for CNN.
 ![image](https://user-images.githubusercontent.com/83011466/204414572-9d56a9a8-f84a-40c8-9fdd-adc729c135e9.png)
+We had also looked to see if there would be a major difference in accuracy score with bert-based-cased and bert-based-uncased, our reasoning initially was that Bert would be able to more easily identify Named Entities as they are more likely to have an upercase format but our results for this showed an accuracy score of 92% compared to -uncased at 94%.
 
-
+There were severl issues that came up with the CNN model that we tried a new aproach using Tensorflow Keras and BiLSTM. this method was more straightforward and provided the needed scores on our origional dataset. with an overall strong accuracy of <strong>99%</strong>.
 
 ## Future Work
 
+Given more time with this project we would like to get tthe kinks worked out with the CNN model as well as to test our working models with the tweets we pulled regarding current events in war. Being able to identify dates, companies, individuals, dollar amounts, and other useful data with a NER model is a useful strategy to sum up the large amounts of news and events for the length of a war.
