@@ -94,6 +94,7 @@ The NER tag follows a special format used widely in NER literature called IOB fo
     <li>I: this tag means the word is part of a ulti-word entity but is not the first word in the full entity name  </li>
 </p>
 
+
 <strong>Data Training and Validation Split </strong>
 The MIT public movie corpus was divided into a training set of 90% and 10% for validation set.
 
